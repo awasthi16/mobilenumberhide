@@ -1,0 +1,92 @@
+
+<script>
+    
+function call()
+{
+    var x=["9131832650","8878900943","9131836677","9131832655","9131832654","9131832652"]
+
+    for(i=0;i<x.length;i++)
+    {
+        var b=x[i]
+        var d=b.substring(6)
+    
+        var n=d.padStart(10,"X")
+
+    
+    
+        console.log(n)
+        result.innerHTML=(n)
+       
+    }
+
+
+}
+
+    function call1()
+    {
+        var x=["9131832650","8878900943","9131836677","9131832655","9131832654","9131832652"]
+
+for(i=0;i<x.length;i++)
+{
+    var b=x[i]
+    var d=b.substring(0,4)
+    var n=d.padEnd(10,"X")
+
+
+    
+    console.log(n)
+    result.innerHTML=(n)
+   
+    }
+
+
+}
+   
+   
+   
+   
+function call2()
+{
+    var x=["9131832650","8878900943","9131836677","9131832655","9131832654","9131832652"]
+
+    for(i=0;i<x.length;i++)
+    {
+        var b=x[i]
+        var d=b.substring(6)
+    
+        var n=d.padStart(10,"X")
+
+    
+        //if(b.includes("ind"))
+        console.log(n)
+        result.innerHTML=(n)
+       
+    }
+
+
+}</script>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <html>
+       for this result sample XXXXXX2652  
+        <input type="button" value="click here" onclick="call()"> <br>
+        for this result sample  9131XXXXXX   <input type="button" value="click here" onclick="call1()">
+        <br> for this result sample  913XXXX654 <input type="button" value="click here" onclick="call2()">
+        
+        <div id="result"></div>
+
+    </html>
